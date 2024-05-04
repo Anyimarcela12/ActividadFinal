@@ -1,0 +1,20 @@
+{
+    "name": "trabajofinalsubunidad1",
+    "version": "1.0.0",
+    "description": "Por medio de esta pagina informativa, se busca dar a conocer conceptos basicos  conceptos practicos sobre el desarrollo de habilidades para gestionar las emociones, mejorar relaciones interpersonales y potenciar el bienestar emocional",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "author": "Anyi Marcela",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "mongoose": "^8.3.2",
+        "nodemon": "^3.1.0"
+    }
+}
